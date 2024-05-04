@@ -11,18 +11,27 @@ public class Unit5Activity1 extends JPanel{
         Color color1 = new Color(100, 199, 100);
         Color color2 = new Color(208, 180, 45);
 
-        for(int i = 5; i > 0; i--){
-            if(i == 1 || i == 3 || i == 5) {
-                g.setColor(color1);
-                g.fillOval(250 + i*25, 250 + i*25, 250 - 50*i, 250 - 50*i);
-            }
+    for(int i = 5; i > 0; i--)
+    {
+        int x = 250 + i*25;
+        int y = x;
+        int width = 250 - 50*i;
+        int height = width;
+        System.out.println(x + " : " + width);
 
-            else if(i == 2 || i == 4){
-                g.setColor(color2);
-                g.fillOval(250 + i*25, 250 + i*25, 250 - 50*i, 250 - 50*i);
-            }
+        if(i == 1 || i == 3 || i == 5) 
+        {
+            g.setColor(color1);
         }
-    }   
+
+        else if(i == 2 || i == 4)
+        {
+            g.setColor(color2);
+        }
+
+        g.fillOval(x, y, width, height);
+    }
+}   
 
 
 
