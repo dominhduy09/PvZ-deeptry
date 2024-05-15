@@ -1,6 +1,5 @@
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
-
 import java.awt.Image;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
