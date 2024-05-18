@@ -17,5 +17,5 @@ Game PvZ:
 
 Dự định sẽ thêm theme mới và thêm level mới, hiện tại chỉ có 2 lv
 
-![Alt text](/../master/Quangcao1.png?raw=true "Quangcao1")
-![Alt text](/../master/Quangcao2.jpg?raw=true "Quangcao2")
+![Alt text](/../master/Quangcao1.png?raw=true "Screenshot")
+![Alt text](/../master/Quangcao2.jpg?raw=true "Screenshot")
