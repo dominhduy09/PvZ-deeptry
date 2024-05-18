@@ -1,8 +1,7 @@
-
+// Plant class java
 public abstract class Plant {
 
     private int health = 200;
-
     private int x;
     private int y;
 
