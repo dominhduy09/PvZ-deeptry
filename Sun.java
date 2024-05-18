@@ -1,70 +1,74 @@
-import javax.swing.ImageIcon;
-import javax.swing.JPanel;
-import java.awt.Image;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
 public class Sun extends JPanel implements MouseListener {
-    private GamePanel gamePanel;
-    private int x;
-    private int y;
-    private int endY;
-    private int destructionCountdown = 200;
+
+    private GamePanel gp;
     private Image sunImage;
 
+    private int myX;
+    private int myY;
+    private int endY;
+
+    private int destruct = 200;
+
     public Sun(GamePanel parent, int startX, int startY, int endY) {
-        gamePanel = parent;
+        this.gp = parent;
         this.endY = endY;
         setSize(80, 80);
         setOpaque(false);
-        x = startX;
-        y = startY;
-        setLocation(x, y);
-        new ImageIcon(this.getClass().getResource("Image/sun.png")).getImage();
+        myX = startX;
+        myY = startY;
+        setLocation(myX, myY);
+        sunImage = new ImageIcon(this.getClass().getResource("images/sun.png")).getImage();
         addMouseListener(this);
     }
 
+    @Override
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
+        g.drawImage(sunImage, 0, 0, null);
+    }
+
     public void advance() {
-        if (y < endY) {
-            y += 4;
+        if (myY < endY) {
+            myY += 4;
         } else {
-            destructionCountdown--;
-            if (destructionCountdown < 0) {
-                gamePanel.remove(this);
-                gamePanel.getActiveSuns().remove(this);
+            destruct--;
+            if (destruct < 0) {
+                gp.remove(this);
+                gp.getActiveSuns().remove(this);
             }
         }
-        setLocation(x, y);
+        setLocation(myX, myY);
     }
 
     @Override
     public void mouseClicked(MouseEvent e) {
 
-        throw new UnsupportedOperationException("Unimplemented method 'mouseClicked'");
-    }
-
-    @Override
-    public void mouseEntered(MouseEvent e) {
-
-        throw new UnsupportedOperationException("Unimplemented method 'mouseEntered'");
-    }
-
-    @Override
-    public void mouseExited(MouseEvent e) {
-
-        throw new UnsupportedOperationException("Unimplemented method 'mouseExited'");
     }
 
     @Override
     public void mousePressed(MouseEvent e) {
 
-        throw new UnsupportedOperationException("Unimplemented method 'mousePressed'");
     }
 
     @Override
     public void mouseReleased(MouseEvent e) {
-
-        throw new UnsupportedOperationException("Unimplemented method 'mouseReleased'");
+        gp.setSunScore(gp.getSunScore() + 25);
+        gp.remove(this);
+        gp.getActiveSuns().remove(this);
     }
 
+    @Override
+    public void mouseEntered(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mouseExited(MouseEvent e) {
+
+    }
 }
