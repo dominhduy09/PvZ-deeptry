@@ -6,7 +6,9 @@ Vào Link này, add mail để trở thành collab để commit code: https://gi
 
 Video cách commit code: https://www.youtube.com/watch?v=lYiE5lBS13E
 
-Sẽ viết code dựa trên: https://github.com/arminkz/PlantsVsZombies
+Sẽ viết code dựa trên: 
+- https://github.com/arminkz/PlantsVsZombies
+- https://github.com/TheExploration/Plants-Vs-Zombies?tab=readme-ov-file
 
 Vẽ thêm: 
 - https://www.canva.com/design/DAGFirfUv7w/mBkZ3t3sdzu-Uycs9zIXcw/edit?utm_content=DAGFirfUv7w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
