@@ -1,10 +1,13 @@
 # PvZ-deeptry
+About, Supported By: https://www.greenfoot.org/overview
 
 PvZ by deeptry group
 
 Vào Link này, add mail để trở thành collab để commit code: https://github.com/dominhduy09/PvZ-deeptry
 
 Video cách commit code: https://www.youtube.com/watch?v=lYiE5lBS13E
+
+~~
 
 Sẽ viết code dựa trên: 
 - https://github.com/arminkz/PlantsVsZombies
@@ -24,6 +27,8 @@ Game PvZ:
 - Khang: làm Menu, làm Report.
 
 Dự định sẽ thêm theme mới và thêm level mới, hiện tại chỉ có 2 lv
+
+~~
 
 # Second design:
 ![Alt text](/../main/Quangcao3.png?raw=true "Quangcao3")
