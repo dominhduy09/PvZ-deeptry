@@ -32,7 +32,9 @@ Game PvZ:
 Dự định sẽ thêm theme mới và thêm level mới, hiện tại chỉ có 2 lv
 
 ~~
-
+# Final design:
+![Alt text](/../main/UML-Mindmap.png?raw=true "UML-Mindmap")
+![Alt text](/../main/mainmenu.png?raw=true "mainmenu")
 # Second design:
 ![Alt text](/../main/Quangcao3.png?raw=true "Quangcao3")
 # First design:
