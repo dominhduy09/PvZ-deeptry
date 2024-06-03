@@ -24,10 +24,10 @@ Second design:
 - https://www.canva.com/design/DAGGiWoK2Z0/0L35AwetMHCm-N3Vb4jg7g/edit?utm_content=DAGGiWoK2Z0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 Game PvZ:
-- Duy: làm Zomebie class.
-- Quang: làm Plant class.
-- Ann: làm Sun, làm Slides.
-- Khang: làm Menu, làm Report.
+- Duy: làm UML, làm Zomebie class, làm ReadmeTXT, làm MainActor.
+- Quang: làm UML, World class.
+- Ann: làm Zombie, làm IdleZombie, làm Plant, làm Slides.
+- Khang: làm SeedPacket, làm TransparentObj, làm Report.
 
 Dự định sẽ thêm theme mới và thêm level mới, hiện tại chỉ có 2 lv
 
