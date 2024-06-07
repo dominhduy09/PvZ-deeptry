@@ -1,5 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import java.awt.Desktop;
+import java.net.URL;
 /**
  * Write a description of class More here.
  * 
@@ -33,7 +34,11 @@ public class More extends Button
             }
             if (Greenfoot.mouseClicked(this)) {
                 clicked = true;
-                
+                try{
+                    Desktop.getDesktop().browse(new URL("https://github.com/dominhduy09/PvZ-deeptry").toURI());
+                }
+            catch (Exception e)
+                {}
                 AudioPlayer.play(100, "gravebutton.mp3");
                 
             }
