@@ -11,6 +11,7 @@ Video cách commit code: https://www.youtube.com/watch?v=lYiE5lBS13E
 
 UML:
 - https://mm.tt/app/map/3302668869?t=kWnCmKw2EI
+- https://lucid.app/lucidchart/c8d17d7f-7869-449b-92e1-f9061610840e/edit?view_items=rYmJi63TdFoc&invitationId=inv_a3eb7eb9-eccb-46b4-9034-783930a4a771
 
 Sẽ viết code dựa trên: 
 - https://github.com/arminkz/PlantsVsZombies
