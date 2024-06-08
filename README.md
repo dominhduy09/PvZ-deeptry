@@ -33,7 +33,7 @@ Dự định sẽ thêm theme mới và thêm level mới, hiện tại chỉ c�
 
 ~~
 # Final design:
-![Alt text](/../main/mainmenu.png?raw=true "UML-mainmenu")
+![Alt text](/../main/mainmenu1.png?raw=true "mainmenu1")
 ![Alt text](/../main/lawn2.5.png?raw=true "lawn2.5")
 
 ![Alt text](/../main/UML-Mindmap.png?raw=true "UML-Mindmap")
