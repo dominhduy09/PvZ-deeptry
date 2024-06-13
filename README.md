@@ -1,4 +1,4 @@
-# PvZ-deeptry
+![image](https://github.com/dominhduy09/PvZ-deeptry/assets/64354042/5a30246d-72ae-4674-bd03-6d4621d0eb47)# PvZ-deeptry
 About, Supported By: https://www.greenfoot.org/overview
 
 PvZ by deeptry group
@@ -8,6 +8,8 @@ Vào Link này, add mail để trở thành collab để commit code: https://gi
 Video cách commit code: https://www.youtube.com/watch?v=lYiE5lBS13E
 
 ~~
+Gameplay:
+- https://youtu.be/TUH8KEWjI2w?si=l_hLIPwBMnqfYGYu
 
 UML:
 - https://mm.tt/app/map/3302668869?t=kWnCmKw2EI
