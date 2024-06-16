@@ -8,6 +8,9 @@ Vào Link này, add mail để trở thành collab để commit code: https://gi
 Video cách commit code: https://www.youtube.com/watch?v=lYiE5lBS13E
 
 ~~
+Pitch Deck:
+- https://www.canva.com/design/DAGINP15TXM/EJwBXSNNcRpXl4RTcQ74ug/edit
+
 Gameplay:
 - https://youtu.be/TUH8KEWjI2w?si=l_hLIPwBMnqfYGYu
 
