@@ -10,6 +10,7 @@ Vào Link này, add mail để trở thành collab để commit code: https://gi
 Video cách commit code: https://www.youtube.com/watch?v=lYiE5lBS13E
 
 ~~
+
 Pitch Deck:
 - https://www.canva.com/design/DAGINP15TXM/EJwBXSNNcRpXl4RTcQ74ug/edit
 
@@ -40,6 +41,7 @@ Game PvZ:
 Dự định sẽ thêm theme mới và thêm level mới, hiện tại chỉ có 2 lv
 
 ~~
+
 # Final design:
 ![Alt text](/../main/mainmenu1.png?raw=true "mainmenu1")
 ![Alt text](/../main/lawn2.5.png?raw=true "lawn2.5")
